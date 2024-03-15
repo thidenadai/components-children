@@ -4,9 +4,10 @@ import BtnComponent from "../components/BtnComponent";
 import BtnComponent2 from "../components/BtnComponent2";
 import Img from "../components/ImgComponent";
 import BtnComponent3 from "../components/BtnComponent3";
+import { styles } from "../styles/Styleshetts";
 export default function Home() {
   return (
-    <View>
+    <View style={styles.container}>
       <BtnComponent>
         <Text>ei</Text>
       </BtnComponent>

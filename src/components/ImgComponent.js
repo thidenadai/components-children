@@ -5,9 +5,5 @@ const img = {
 };
 
 export default function Img() {
-  return (
-    <View>
-      <Image style={styles.img} source={img} />
-    </View>
-  );
+  return <Image style={styles.img} source={img} />;
 }
